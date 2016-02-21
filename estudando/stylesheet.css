@@ -1,0 +1,6 @@
+* {margin: 0; padding: 0;}
+#menu{ height: 40px; width: 100%; background-color: black; opacity: 0.8; position:fixed; margin:auto;  }
+#menu-conteudo{ height: 40px; width: 900px; background-color: darkcyan; opacity: 0.8;  margin:auto;}
+#all{background-color: aliceblue; margin: auto; align-text: center; width: 900px; height: 1200px; text-align:center; padding-top: 40px; }
+#all-conteudo{background-color: aliceblue; margin: auto; align-text: center; width: 900px; height: 1200px; text-align:center; }
+#footer{ height: 170px; width: 100%; background-color: black; opacity: 0.8; float : left}

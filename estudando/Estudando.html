@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Estudando</title>
+
+<script style="text/javascript" src="angular.min.js"> </script>
+    <script style="text/javascript" src="app.js"> </script>
+    <link href="stylesheet.css" rel="stylesheet"> </link>
+</head>
+
+<body ng-app="codeAmApp">
+
+<div id="menu">
+
+<div id="menu-conteudo"> </div></div>
+<div id="all-conteudo">
+
+<div id="all">  <!-- inicio da div "all" -->
+
+<h1> Entrada é: {{teste}}</h1>
+<input type="text" ng-model="teste"> <!--  ng-model para referenciar a variavel {{}} acima-->
+
+
+<div ng-controller="ivanctrl">
+<h2> a outra entrada é {{name}} </h2>
+
+
+    <input ng-model="newname" value="me click" ng-click="habilitarnome(newname)" placeholder="digite um nome" >
+    <input ng-model="newname" type="button" value="me click" ng-click="habilitarnome(newname)"  >
+</div>
+
+
+
+<div ng-controller="outroctrl">
+    <h2> a outra entrada é {{name}} </h2>
+
+</div>
+</div>
+
+</div> <!-- final da div "all" -->
+
+<div id="footer"></div>
+</body>
+</html>
